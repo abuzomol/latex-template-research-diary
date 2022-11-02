@@ -15,13 +15,13 @@ You can change the logo picture by adding your own and modifing \logoPNG in rese
 Finally, you produce the entire year diary in a single pdf file by running the command:
 
 ```
-  python3 create_anthology.py
+python3 create_anthology.py
 ```
 
 or simply writing:
 
 ```
-  make
+make
 ```
 
 
