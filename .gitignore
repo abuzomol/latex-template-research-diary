@@ -1,0 +1,11 @@
+*Research-Diary.*
+202?-??-??.pdf
+*.aux
+*.fdb_latexmk
+*.fls
+*.tmp
+*.log
+*.out
+*.synctex.gz
+buildls
+*.pdf
