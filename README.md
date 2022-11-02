@@ -9,7 +9,7 @@ python3 add_entry.py
 
 You can change the author and the institute or add them as argument to the python file. 
 
-You can change the logo picture by adding your own and modifing \logoPNG in research_diary.sty file
+You can change the logo picture by adding your own and modifing \logoPNG in research_diary.sty file. You might need to use absolute path with both the logo and the research_diary.sty files
 
 
 Finally, you produce the entire year diary in a single pdf file by running the command:
@@ -26,3 +26,16 @@ or simply writing:
 
 
 Note: tested on python3 verion 3.10.8. It might work on verion 3.9 but not less!
+
+
+For windows, you might need to use: 
+
+```
+os.getcwd()
+```
+
+function call instead of 
+
+```
+os.path.dirname()
+```
