@@ -57,7 +57,7 @@ def main(args):
 \documentclass[letterpaper,11pt]{{article}}
 \\newcommand{{\\userName}}{{{author}}}
 \\newcommand{{\\institution}}{{{institute}}}
-\\usepackage{{research_diary}}
+\\usepackage{{{pwd}/research_diary}}
 
 \\title{{Research Diary - {year}}}
 \\author{{{author}}}

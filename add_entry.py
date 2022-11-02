@@ -31,14 +31,14 @@ def main(args):
 
     month_int_to_month_str = {1:"January", 2:"February", 3:"March", 4:"April",5:"May", 6:"June", 7:"July", 8:"August", 9:"September",10:"October",11:"November",12:"December"}
 
-    arguments = {"file_name":file_name, "year":args.year, "month":args.month, "month_str":month_int_to_month_str[today.month], "day":args.day,"author":args.author, "institute":args.institute}
+    arguments = {"file_name":file_name, "year":args.year, "month":args.month, "month_str":month_int_to_month_str[today.month], "day":args.day,"author":args.author, "institute":args.institute, "pwd":pwd}
     tex_entry = """%%% Research Diary - Entry
 \documentclass[11pt,letterpaper]{{article}}
 
 \\newcommand{{\\workingDate}}{{\\textsc{{{year} $\\mid$ {month_str} $\\mid$ {day}}}}}
 \\newcommand{{\\userName}}{{{author}}}
 \\newcommand{{\\institution}}{{institute}}
-\\usepackage{{research_diary}}
+\\usepackage{{{pwd}/research_diary}}
 
 \\begin{{document}}
 \\logoPNG % you can find this in research_diary.sty
