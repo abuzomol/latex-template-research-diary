@@ -10,3 +10,16 @@ python3 add_entry.py
 You can change the author and the institute or add them as argument to the python file. 
 
 You can change the logo picture by adding your own and modifing \logoPNG in research_diary.sty file
+
+
+Finally, you produce the entire year diary in a single pdf file by running the command:
+
+```
+  python3 create_anthology.py
+```
+
+or simply writing:
+
+```
+  make
+```
