@@ -23,3 +23,6 @@ or simply writing:
 ```
   make
 ```
+
+
+Note: tested on python3 verion 3.10.8. It might work on verion 3.9 but not less!
